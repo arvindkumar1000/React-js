@@ -45,6 +45,17 @@ export class AuthService {
         }
     }
 
+
+    async getCurrentUser(){
+        try {
+          return  await this.account.get()
+        } catch (error) {
+            console.log("Apprite service :: getCurrentUser :: error", error)
+        }
+
+        return null;
+    }
+
     // ✅ Logout function (optional)
     async logout() {
         try {
