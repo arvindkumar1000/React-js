@@ -66,7 +66,7 @@ react-complete-course/
 
 Clone the repository:
 
-git clone https://github.com/your-username/react-complete-course.git
+git clone https://github.com/arvindkumar1000/react-complete-course.git
 
 
 Navigate to the project folder:
